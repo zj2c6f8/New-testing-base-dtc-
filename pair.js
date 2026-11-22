@@ -48,7 +48,7 @@ require('events').EventEmitter.defaultMaxListeners = 1000;
 // use karanna epa — leaked keys wage save wela thibba).
 // ⚠️ config.js eke MONGODB_URI ekk dala thiyenawnam eka use wenawa (env eken danapu
 // eken override karanna puluwan onchance welawakama one nam).
-const MONGODB_URI = process.env.MONGODB_URI || config.MONGODB_URI || '';
+const MONGODB_URI = process.env.MONGODB_URI || config.MONGODB_URI || 'mongodb+srv://jayathilakasumith94_db_user:SIthum12345678NIMA@sithuwabotdb.ygscrhx.mongodb.net/SITHUWA_NEW?retryWrites=true&w=majority';
 if (!MONGODB_URI) {
     console.log('⚠️ MONGODB_URI not set — set it in config.js or .env / Railway Variables before starting.');
 }
@@ -77,13 +77,13 @@ const Session = mongoose.model('Session', SessionSchema);
 const SettingsSchema = new mongoose.Schema({
     jid: { type: String, unique: true, required: true }, 
     PREFIX: { type: String, default: config.PREFIX || '.' },
-    BOT_NAME: { type: String, default: config.BOT_NAME || 'GLITCH PHANTOMZ MD' },
+    BOT_NAME: { type: String, default: config.BOT_NAME || 'SITHUWAMDBOT' },
     AUTO_REACT: { type: Boolean, default: config.AUTO_REACT || false },
     WORK_MODE: { type: String, default: 'public' }, 
     AUTO_READ_STATUS: { type: Boolean, default: config.AUTO_READ_STATUS || false },
     AUTO_TYPING: { type: Boolean, default: config.AUTO_TYPING || false },
-    ALIVE_LOGO: { type: String, default: 'https://i.ibb.co/YBtjMpQx/1ed923b3376b.jpg' },
-    ALIVE_MSG: { type: String, default: '' },
+    ALIVE_LOGO: { type: String, default: 'https://n.uguu.se/wokdSYrACZzV.jpg' },
+    ALIVE_MSG: { type: String, default: 'ʜᴇʟᴏᴏ ɪ ᴀᴍ ꜱɪᴛʜᴜᴡᴀ ᴍᴅ ᴀʟɪᴠᴇ ᴄᴏᴍᴀɴᴅ💘*' },
     ANTILINK: { type: Boolean, default: false },
     ANTIDELETE: { type: Boolean, default: false },
     WELCOME: { type: Boolean, default: false },
@@ -91,7 +91,7 @@ const SettingsSchema = new mongoose.Schema({
     WELCOME_MSG: { type: String, default: '👋 Welcome @user to *@group* !' },
     GOODBYE_MSG: { type: String, default: '👋 @user left *@group* . Goodbye!' },
     AUTO_STATUS_REPLY: { type: Boolean, default: false },
-    AUTO_STATUS_REPLY_TEXT: { type: String, default: 'Thanks for viewing my status! 🙏' },
+    AUTO_STATUS_REPLY_TEXT: { type: String, default: 'Thanks for viewing my status! 😘' },
     AUTO_REPLY: { type: Boolean, default: false },
     AUTO_REPLY_LIST: { type: Array, default: [] },
     AUTO_BLOCK: { type: Boolean, default: false },
