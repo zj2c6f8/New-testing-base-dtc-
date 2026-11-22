@@ -1,7 +1,7 @@
 {
-  "name": "glitch-phantomz-md-bot",
+  "name": "sithuwa-md-bot",
   "version": "1.0.0",
-  "description": "GLITCH PHANTOMZ MD BOT — Multi-session WhatsApp Bot with Plugin System",
+  "description": "SITHUWA MD BOT — Multi-session WhatsApp Bot with Plugin System",
   "main": "pair.js",
   "scripts": {
     "start": "node pair.js",
