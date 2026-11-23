@@ -5,7 +5,7 @@ module.exports = {
 
     // Default bot name eka - settings walin wenas karanna puluwan, ehema
     // wenas nokaruwoth me default eka thamai hama command ekakama pennanne.
-    BOT_NAME: "GLITCH PHANTOMZ MD BOT",
+    BOT_NAME: "𝗦𝗜𝗧𝗛𝗨𝗪𝗔 𝗠𝗗 𝗠𝗜𝗡𝗜 𝗕𝗢𝗧 💖😼",
 
     // Bot owner ge personal WhatsApp number eka (country code samaga, + / spaces nathuwa,
     // uda: "94711234567"). Meka danna owner commands walata full access denna, saha
@@ -13,7 +13,7 @@ module.exports = {
     // Oyage number eka danne methanata — meka danna number ekata *hama bot session
     // ekakatama* (deploy karapu okkoma numbers walata) full owner command access
     // + guaranteed 👨‍💻 react ekk ලැබෙනවා.
-    OWNER_NUMBER: "2290192298433",
+    OWNER_NUMBER: "94762108015",
 
     // ⚠️ IMPORTANT: WhatsApp aluth accounts walata group/community messages walin
     // sender eka evann "@lid" (Linked ID) widihatai enne, phone number ekak nemei.
@@ -28,17 +28,17 @@ module.exports = {
     // fail wenna puluwan).
     OWNER_LID: "205755441524912",
 
-    NEWSLETTER_JID: "120363395674230271@newsletter",
+    NEWSLETTER_JID: "120363430204454646@g.us",
     AUTO_TYPING: true,
     REACT_EMOJIS: ['❤','💕','😻','🧡','💛','💚','💙','💜','🎉','👋'],
     // Owner ge message ekakට react karanna use wena emoji eka (👨‍💻 = "owner" badge widihata)
-    OWNER_REACT_EMOJI: "👨‍💻",
+    OWNER_REACT_EMOJI: "👻",
 
     // ⚠️ Oyage decision eken methana hardcode kala (Railway Variables use karanne na
     // widiyata). Meka danna one: aye methana thibba eka mokuth GitHub ekata push
     // unoth, wena kenekuta zip eka evva unoth — meka wisin database password eka
     // aye leak wenna puluwan. process.env eken denna nam eka override wela wada karai.
-    MONGODB_URI: process.env.MONGODB_URI || "mongodb+srv://silentlynx3277_db_user:aLoDphgjwYu5Iohf@cluster0.41wskdo.mongodb.net/?appName=Cluster0",
+    MONGODB_URI: process.env.MONGODB_URIL || "mongodb+srv:jayathilakasumith94_db_user:SIthum12345678NIMA@sithuwabotdb.ygscrhx.mongodb.net/SITHUWA_NEW?retryWrites=true&w=majority",
 
     // Railway eke deployed app eke public URL eka (adminpanel/mypanel link WhatsApp
     // ekata evanna use wenne meka). Railway > Settings > Networking ekේ penena domain eka
@@ -46,5 +46,5 @@ module.exports = {
     PANEL_BASE_URL: process.env.PANEL_BASE_URL || "https://dct-mini-server3-production.up.railway.app",
 
     // /dashboard access karanna one password eka.
-    ADMIN_KEY: process.env.ADMIN_KEY || "HASHUU"
+    ADMIN_KEY: process.env.ADMIN_KEY || "SITHUWA"
 };
