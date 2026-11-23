@@ -48,7 +48,7 @@ require('events').EventEmitter.defaultMaxListeners = 1000;
 // use karanna epa — leaked keys wage save wela thibba).
 // ⚠️ config.js eke MONGODB_URI ekk dala thiyenawnam eka use wenawa (env eken danapu
 // eken override karanna puluwan onchance welawakama one nam).
-const MONGODB_URI = process.env.MONGODB_URI || config.MONGODB_URI || 'mongodb+srv://jayathilakasumith94_db_user:SIthum12345678NIMA@sithuwabotdb.ygscrhx.mongodb.net/SITHUWA_NEW?retryWrites=true&w=majority';
+const MONGODB_URI = process.env.MONGODB_URI || config.MONGODB_URI || 'mongodb+srv://faxtx65_db_user:<db_password>@nima.4zt0gqi.mongodb.net/';
 if (!MONGODB_URI) {
     console.log('⚠️ MONGODB_URI not set — set it in config.js or .env / Railway Variables before starting.');
 }
