@@ -12,7 +12,7 @@ cmd({
 },
 async (conn, mek, m, { from, reply, pushname }) => {
     try {
-        const botName = config.BOT_NAME || "GLITCH PHANTOMZ MD";
+        const botName = config.BOT_NAME || "SITHUWA MD";
         
         // පියවර 3ක පොඩි ඇනිමේෂන් එකක්
         const frames = ["⌛ ʟᴏᴀᴅɪɴɢ ᴍᴇɴᴜ...", "📟 ꜰᴇᴛᴄʜɪɴɢ ᴄᴏᴍᴍᴀɴᴅꜱ...", "✨ ᴀʟᴍᴏꜱᴛ ᴛʜᴇʀᴇ..."];
@@ -51,12 +51,12 @@ async (conn, mek, m, { from, reply, pushname }) => {
 
         menuText += `
 ━━━━━━━━━━━━━━━━━━━━━━━━
-> *𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 GLITCH PHANTOMZ MD 💗👨‍💻*`;
+> *𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 SITHUWA MD 💗👨‍💻*`;
 
         // අවසාන වශයෙන් පින්තූරයක් සමඟ හෝ මැසේජ් එකක් ලෙස යැවීම
         // මෙතන Image URL එකක් දාන්න පුළුවන්
         await conn.sendMessage(from, { 
-            image: { url: "https://i.ibb.co/4nfQSR27/d8df19de8961.jpg" }, // ඔයාගෙ Logo එක මෙතනට දාන්න
+            image: { url: "https://file.dnuz.top/nu1ixc.jpg" }, // ඔයාගෙ Logo එක මෙතනට දාන්න
             caption: menuText,
             edit: key 
         });
