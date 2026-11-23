@@ -38,7 +38,7 @@ module.exports = {
     // widiyata). Meka danna one: aye methana thibba eka mokuth GitHub ekata push
     // unoth, wena kenekuta zip eka evva unoth — meka wisin database password eka
     // aye leak wenna puluwan. process.env eken denna nam eka override wela wada karai.
-    MONGODB_URI: process.env.MONGODB_URIL || "mongodb+srv:jayathilakasumith94_db_user:SIthum12345678NIMA@sithuwabotdb.ygscrhx.mongodb.net/SITHUWA_NEW?retryWrites=true&w=majority",
+    MONGODB_URI: process.env.MONGODB_URIL || process.env.MONGO_URI ||"jayathilakasumith94_db_user:SIthum12345678NIMA@sithuwabotdb.ygscrhx.mongodb.net/SITHUWA_NEW?retryWrites=true&w=majority",
 
     // Railway eke deployed app eke public URL eka (adminpanel/mypanel link WhatsApp
     // ekata evanna use wenne meka). Railway > Settings > Networking ekේ penena domain eka
