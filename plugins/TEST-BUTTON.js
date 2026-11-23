@@ -12,7 +12,7 @@ cmd({
 async (conn, mek, m, { reply, pushname }) => {
     try {
         await sendButtons(conn, m.chat, {
-            text: `👋 ආයුබෝවන් *${pushname || 'Friend'}*!\n*${config.BOT_NAME}* එකට සාදරයෙන් පිළිගනිමු.\n\nපහත බටන් එකක් තට්ටු කරන්න:`,
+            text: `👋 ආයුබෝවන් *${pushname || 'Friend'}*!\n*${config.𝗦𝗜𝗧𝗛𝗨𝗪𝗔 𝗠𝗗}* එකට සාදරයෙන් පිළිගනිමු.\n\nපහත බටන් එකක් තට්ටු කරන්න:`,
             footer: config.BOT_NAME,
             buttons: [
                 { id: ".menu", text: "📜 Menu" },
