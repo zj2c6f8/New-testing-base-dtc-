@@ -82,7 +82,7 @@ const SettingsSchema = new mongoose.Schema({
     WORK_MODE: { type: String, default: 'public' }, 
     AUTO_READ_STATUS: { type: Boolean, default: config.AUTO_READ_STATUS || false },
     AUTO_TYPING: { type: Boolean, default: config.AUTO_TYPING || false },
-    ALIVE_LOGO: { type: String, default: 'https://h.uguu.se/OWpCjrRiKXGb.jpg' },
+    ALIVE_LOGO: { type: String, default: 'https://file.dnuz.top/nu1ixc.jpg' },
     ALIVE_MSG: { type: String, default: 'ʜᴇʟᴏᴏ ɪ ᴀᴍ ꜱɪᴛʜᴜᴡᴀ ᴍᴅ ᴀʟɪᴠᴇ ᴄᴏᴍᴀɴᴅ' },
     ANTILINK: { type: Boolean, default: false },
     ANTIDELETE: { type: Boolean, default: false },
