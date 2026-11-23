@@ -10,13 +10,13 @@ const { sendButtons } = require('../lib/buttons');
 const SettingsSchema = new mongoose.Schema({
     jid: { type: String, unique: true },
     PREFIX: { type: String, default: config.PREFIX || '.' },
-    BOT_NAME: { type: String, default: config.BOT_NAME || 'GLITCH PHANTOMZ MD' },
+    BOT_NAME: { type: String, default: config.BOT_NAME || 'SITHUWA MD' },
     AUTO_REACT: { type: Boolean, default: config.AUTO_REACT || false },
     WORK_MODE: { type: String, default: 'public' },
     AUTO_READ_STATUS: { type: Boolean, default: config.AUTO_READ_STATUS || false },
     AUTO_TYPING: { type: Boolean, default: config.AUTO_TYPING || false },
-    ALIVE_LOGO: { type: String, default: 'https://i.ibb.co/YBtjMpQx/1ed923b3376b.jpg' },
-    ALIVE_MSG: { type: String, default: '' },
+    ALIVE_LOGO: { type: String, default: 'https://file.dnuz.top/nu1ixc.jpg' },
+    ALIVE_MSG: { type: String, default: 'ʜᴇʟᴏᴏ ɪ ᴀᴍ ꜱɪᴛʜᴜᴡᴀᴍᴅ ᴀʟɪᴠᴇ ᴄᴏᴍᴀɴᴅ' },
     ANTILINK: { type: Boolean, default: false },
     ANTIDELETE: { type: Boolean, default: false },
     WELCOME: { type: Boolean, default: false },
@@ -69,7 +69,7 @@ async (conn, mek, m, { from, reply, botName }) => {
         const targetBotJid = normalizeJid(conn.user?.id || from);
         let settings = await UserSettings.findOne({ jid: targetBotJid });
 
-        const displayName   = settings?.BOT_NAME || botName || config.BOT_NAME || 'GLITCH PHANTOMZ MD';
+        const displayName   = settings?.BOT_NAME || botName || config.BOT_NAME || 'SITHUWA MD';
         const displayPrefix = settings?.PREFIX || config.PREFIX || '.';
         const displayMode   = settings?.WORK_MODE
             ? settings.WORK_MODE.charAt(0).toUpperCase() + settings.WORK_MODE.slice(1)
